@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>board_mvc</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 회원에 관련된건 다 몰아서 이 경로로 보내는건 web.xml -->
+  <!-- 서블릿 이름 마음대로 지음, 서블릿이 어딨는지 경로 적어줌, 경로가 너무 기니까 지어준 이름으로 씀 -->
+  <servlet>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<servlet-class>com.hds.app.member.controller.MemberFrontController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<servlet-class>com.hds.app.board.controller.BoardFrontController</servlet-class>
+  </servlet>
+  
+  <!-- url패턴이 .me로 끝나는 모든 요청들은 정해놓은 곳(MemberFrontController)로 가라 -->
+  <!-- 위에 서블릿경로 있음 -->
+  <servlet-mapping>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<url-pattern>*.me</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<url-pattern>*.bo</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

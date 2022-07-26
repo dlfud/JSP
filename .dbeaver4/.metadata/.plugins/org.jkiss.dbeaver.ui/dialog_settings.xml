@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DBeaver.StatusDetailsDialog">
+		<item value="367" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="271" key="DIALOG_HEIGHT"/>
+		<item value="537" key="DIALOG_X_ORIGIN"/>
+		<item value="343" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.DataTransferWizard">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="545" key="DIALOG_HEIGHT"/>
+		<item value="510" key="DIALOG_X_ORIGIN"/>
+		<item value="160" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SelectDataSourceDialog">
+		<item value="263" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="723" key="DIALOG_HEIGHT"/>
+		<item value="641" key="DIALOG_X_ORIGIN"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ViewSQLDialog">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="false" key="GenerateSQL.useFQNames"/>
+		<item value="536" key="DIALOG_HEIGHT"/>
+		<item value="503" key="DIALOG_X_ORIGIN"/>
+		<item value="166" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.EnterNameDialog">
+		<item value="228" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="171" key="DIALOG_HEIGHT"/>
+		<item value="606" key="DIALOG_X_ORIGIN"/>
+		<item value="291" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SelectObjectDialog.SchemaSelector">
+		<item value="338" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="373" key="DIALOG_HEIGHT"/>
+		<item value="341" key="DIALOG_X_ORIGIN"/>
+		<item value="275" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ScriptSelectorPanel">
+		<item value="100,100,500,200" key="bounds"/>
+	</section>
+	<section name="DBeaver.ShowTipOfTheDayDialog">
+		<item value="352" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="274" key="DIALOG_HEIGHT"/>
+		<item value="544" key="DIALOG_X_ORIGIN"/>
+		<item value="223" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.StandardErrorDialog">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="true" key="showDetails"/>
+		<item value="457" key="DIALOG_X_ORIGIN"/>
+		<item value="371" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverEditDialog">
+		<item value="516" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="714" key="DIALOG_HEIGHT"/>
+		<item value="282" key="DIALOG_X_ORIGIN"/>
+		<item value="21" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item value="1072" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="690" key="DIALOG_HEIGHT"/>
+		<item value="184" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.QM.LogViewer">
+	</section>
+	<section name="DBeaver.DriverTabbedViewer">
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.ProjectCreateWizard">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="467" key="DIALOG_HEIGHT"/>
+		<item value="510" key="DIALOG_X_ORIGIN"/>
+		<item value="212" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ResultSetViewer">
+		<section name="presentations">
+			<section name="spreadsheet">
+				<item value="value-view" key="enabledPanelIds"/>
+				<item value="true" key="panelsVisible"/>
+				<item value="false" key="verticalLayout"/>
+				<item value="300" key="panelRatio"/>
+				<item value="value-view" key="activePanelId"/>
+			</section>
+			<section name="plaintext">
+				<item value="value-view" key="enabledPanelIds"/>
+				<item value="true" key="panelsVisible"/>
+				<item value="false" key="verticalLayout"/>
+				<item value="0" key="panelRatio"/>
+				<item value="value-view" key="activePanelId"/>
+			</section>
+		</section>
+	</section>
+</section>

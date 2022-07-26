@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Member">
+<!-- 변수 사용시 ${} : 사용자에게 전달받은 타입 그대로 사용, #{} : ''를 붙여서 다 문자열로 만듬 -->
+<!-- XML에서는 세미콜론 절대 붙이면 안됨 오류남 -->
+
+	<!-- 기본 자료형을 앞에 _를 붙여줘야 기본자료형으로 인식함 (String 은 기본 자료형이 아니므로 그냥 쓰면 됨) -->
+	<select id="checkId" parameterType="string" resultType="_int">
+	<!-- 개수를 세서 확인하면 간단 -->
+		SELECT COUNT(ID) FROM TABLE_MEMBER
+		WHERE ID = #{id}
+	</select>
+	
+	<!-- key값을 불러와야 하기 때문에 편하게 MemberVO불러오려고 함 -->
+	<insert id="join" parameterType="member"><!-- config.xml에서 member라고 별칭을 정해놓음 -->
+		INSERT INTO TABLE_MEMBER (ID, PW, NAME, AGE)
+		VALUES(#{id}, #{pw}, #{name}, #{age}) <!-- 외부에서 받은 값을 넣을 것이기 때문에 ${key}를 씀 -->
+		<!-- MemberVO에 get메소드가 있어야 함  -->
+	</insert>
+	
+	<!-- 객체로 전달받지 않음 해쉬맵사용시 key값을 동일하게 적어야 함 		개수를 전달해야 하므로 _int타입 씀 -->
+	<select id="login" parameterType="map" resultType="_int">
+		SELECT COUNT(*) FROM TABLE_MEMBER
+		WHERE ID = #{id} AND PW = #{pw}
+	</select>
+	
+	<update id="modify" parameterType="member">
+	<!-- 이 아이디를 갖고 있는 사람의 이름, 나이를 바꿔라 -->
+		UPDATE TABLE_MEMBER
+		SET NAME = #{name}, AGE = #{age}
+		WHERE ID = #{id}
+	</update>
+	
+	<delete id="remove" parameterType="string">
+		DELETE FROM TABLE_MEMBER WHERE ID = #{id}
+	</delete>
+	
+	<!-- 아이디, 이름 보다는 고유의 번호라던가 폰번호 사용하는게 나음 -->
+	<!-- 조회이므로 select씀		2개 전달받으므로 map		반환하는 값은 string -->
+	<select id="findId" parameterType="map" resultType="string">
+		SELECT * FROM TABLE_MEMBER
+		WHERE NAME = #{name} AND PW = #{pw}
+	</select>
+	
+	<!-- 리스트에 들어갈 타입을 적어줌 -->
+	<select id="findMember" resultType="member">
+		<!-- *쓰는 것보다 하나씩 쓰는게 더 빠름 -->
+		SELECT ID, PW, NAME, AGE FROM TABLE_MEMBER
+		WHERE AGE != 20
+	</select>
+</mapper>

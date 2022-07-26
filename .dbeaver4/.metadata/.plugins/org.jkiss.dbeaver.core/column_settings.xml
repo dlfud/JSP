@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="ExecutionPlan/oracle_thin">
+		<column name="Operation" visible="true" order="0" width="258"/>
+		<column name="Object" visible="true" order="1" width="79"/>
+		<column name="Optimizer" visible="true" order="2" width="79"/>
+		<column name="Cost" visible="true" order="3" width="43"/>
+		<column name="Cardinality" visible="true" order="4" width="80"/>
+		<column name="Bytes" visible="true" order="5" width="52"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="Name" visible="true" order="0" width="97"/>
+		<column name="Description" visible="true" order="1" width="84"/>
+		<column name="Driver Type" visible="true" order="2" width="85"/>
+	</item>
+	<item id="NodeList/OracleProcedureArgument">
+		<column name="Name" visible="true" order="0" width="52"/>
+		<column name="Position" visible="true" order="1" width="64"/>
+		<column name="In/Out" visible="true" order="2" width="57"/>
+		<column name="Type" visible="true" order="3" width="67"/>
+		<column name="Length" visible="true" order="4" width="58"/>
+		<column name="Scale" visible="true" order="5" width="47"/>
+		<column name="Precision" visible="true" order="6" width="70"/>
+	</item>
+	<item id="NodeList/OracleSchema">
+		<column name="Name" visible="true" order="0" width="112"/>
+	</item>
+	<item id="NodeList/OracleTable">
+		<column name="Name" visible="true" order="0" width="122"/>
+		<column name="Stat Row Count" visible="true" order="1" width="114"/>
+		<column name="Tablespace" visible="true" order="2" width="81"/>
+		<column name="Comment" visible="true" order="3" width="75"/>
+	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="Column Name" visible="true" order="0" width="104"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="Data Type" visible="true" order="2" width="86"/>
+		<column name="Type Mod" visible="true" order="3" width="77"/>
+		<column name="Length" visible="true" order="4" width="57"/>
+		<column name="Precision" visible="true" order="5" width="69"/>
+		<column name="Scale" visible="true" order="6" width="46"/>
+		<column name="Not Null" visible="true" order="7" width="68"/>
+		<column name="Default" visible="true" order="8" width="58"/>
+		<column name="Comment" visible="true" order="9" width="75"/>
+	</item>
+	<item id="NodeList/OracleTableConstraint/OracleTableConstraintColumn">
+		<column name="Name" visible="true" order="0" width="129"/>
+		<column name="Owner" visible="true" order="1" width="90"/>
+		<column name="Type" visible="true" order="2" width="97"/>
+		<column name="Condition" visible="true" order="3" width="374"/>
+		<column name="Status" visible="true" order="4" width="68"/>
+	</item>
+	<item id="NodeList/OracleTableConstraintColumn">
+		<column name="Column" visible="true" order="0" width="62"/>
+	</item>
+	<item id="NodeList/OracleTableForeignKey/OracleTableForeignKeyColumn">
+		<column name="Name" visible="true" order="0" width="173"/>
+		<column name="Owner" visible="true" order="1" width="84"/>
+		<column name="Ref Table" visible="true" order="2" width="94"/>
+		<column name="Type" visible="true" order="3" width="96"/>
+		<column name="Ref Object" visible="true" order="4" width="96"/>
+		<column name="On Delete" visible="true" order="5" width="78"/>
+		<column name="Status" visible="true" order="6" width="68"/>
+	</item>
+	<item id="NodeList/OracleTableIndex/OracleTableIndexColumn">
+		<column name="Index Name" visible="true" order="0" width="129"/>
+		<column name="Table" visible="true" order="1" width="94"/>
+		<column name="Index Type" visible="true" order="2" width="83"/>
+		<column name="Ascending" visible="true" order="3" width="79"/>
+		<column name="Expression" visible="true" order="4" width="80"/>
+		<column name="Unique" visible="true" order="5" width="59"/>
+		<column name="Tablespace" visible="true" order="6" width="82"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="112"/>
+	</item>
+	<item id="projectExplorer">
+		<column name="Name" visible="true" order="0" width="195"/>
+		<column name="DataSource" visible="true" order="1" width="161"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="131"/>
+		<column name="Time" visible="true" order="1" width="171"/>
+		<column name="Info" visible="true" order="2" width="1600"/>
+	</item>
+</items>
